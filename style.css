@@ -1,0 +1,107 @@
+body{
+	background-color: #000000;
+	font-family: "Tahoma";
+	color: #ffffff;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#cont{
+	background-color: #ff9b10;
+	padding: 10px;
+	border: 3px double;
+}
+#cont:hover{
+	cursor: hand;
+	cursor: pointer;
+	background-color: #ffbd32;
+}
+.tname{
+	border-radius: 5px;
+	background: #41a8ff;
+    padding: 5px;
+}
+.tname2{
+	background: #555555;
+	padding: 3px;
+}
+.tmatch{
+	border-radius: 5px;
+	background: #2086cc;
+    padding: 5px;
+}
+.tmatchd{
+	border-radius: 5px;
+	background: #0064aa;
+    padding: 5px;
+}
+#emptyvs{
+	background: #777777;
+	padding: 3px;
+}
+.tiplace,
+.tiname,
+.tipoints{
+	border-radius: 5px;
+	padding: 5px;
+}
+.tierrow{
+	background-color: #555555;
+}
+#tierrow0{
+    background-color: #ffbd32;
+}
+#tierrow1{
+	background-color: #e0ded7;
+}
+#tierrow2{
+	background-color: #ba8348;
+}
+.pycchar{
+	border-radius: 10px;
+	background: #41a8ff;
+    padding: 5px;
+}
+.pycchar:hover{
+	cursor: hand;
+	cursor: pointer;
+	background: #41ffa8;
+}
+.rymyc{
+	border-radius: 10px;
+	background: #41ffa8;
+	padding: 5px;
+}
+.ochar{
+	border-radius: 10px;
+	background: #2086cc;
+	padding: 5px;
+}
+.incr{
+}
+.decr{
+}
+.incr:hover,
+.decr:hover{
+	cursor: hand;
+	cursor: pointer;
+}
+#sub{
+	background-color: #ff9b10;
+	padding: 10px;
+	border: 3px double;
+}
+#sub:hover{
+	cursor: hand;
+	cursor: pointer;
+	background-color: #ffbd32;
+}
+#cantvote{
+	font-size: 9px;
+	color: #dd0000;
+}
