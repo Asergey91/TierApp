@@ -4,10 +4,10 @@
 //send query to mysql function returns true false or an array with results
 function Query($sql){
 	//credentials
-	$username="";
-	$password="";
-	$server="";
-	$db="";
+	$username="highfiv2_tierapp";
+	$password="6y6JIuK";
+	$server="localhost";
+	$db="highfiv2_tierapp";
 	//connect
 	$conn = mysqli_connect($server, $username, $password, $db);
 	//check connection

@@ -5,7 +5,7 @@
 </head>
 <body>
 <center>
-<h1><img src=header-logo.png></img><br>Community Tiers (Version 1341)</h1>
+<h1><img src=header-logo.png></img><br>Community Tiers (Version 1372)</h1>
 <div id=app>
 	<div id=output>
 		<h3>Number Of Votes: <span id=numov>0</span></h3>
@@ -27,6 +27,8 @@
 		<div id=curt>
 
 		</div>
+		<h3 id=pych>Older Tiers</h3>
+		<span class=pycchar onclick=OlderVersion("1341.jpg")>1341</span>
 	</div>
 	<div id=input>
 		<h3 id=pych>Pick Your Main</h3>
@@ -39,6 +41,11 @@
 
 		</div>
 		<h2><span class=button id=sub onclick=Submit()>Submit!</span></h2>
+		<script>
+		function OlderVersion(version){
+			window.location.href = version;
+		}
+		</script>
 		<script src=functions.js>
 		</script>
 		<script src=indexscript.js>
