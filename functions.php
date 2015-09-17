@@ -4,10 +4,10 @@
 //send query to mysql function returns true false or an array with results
 function Query($sql){
 	//credentials
-	$username="highfiv2_tierapp";
-	$password="6y6JIuK";
-	$server="localhost";
-	$db="highfiv2_tierapp";
+	$username="";
+	$password="";
+	$server="";
+	$db="";
 	//connect
 	$conn = mysqli_connect($server, $username, $password, $db);
 	//check connection
@@ -102,7 +102,7 @@ function GetName($charnum){
 			for ($rows=0; $rows<6; $rows++){
 				$count=$count+count($matchuptable[$rows."0"]);
 			}
-			echo $count;
+			echo $count-12;
 		}
 		function AJAXRetrieveMatchupTableAndAverage(){
 			$matchuptable=RetrieveMatchupTable();
